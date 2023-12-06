@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="297c0d80-54c8-4769-bb83-e037b8ae9568" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/E2E_Appointment/API_Appointment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/E2E_Appointment/DB_Appointment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/E2E_Appointment/US_02_TC_01Admin_Randevu_Olusturma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/E2E_Create_Room/Api_Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/E2E_Create_Room/DB_Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/E2E_Create_Room/US_05_TC_01Oda_Ekleme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/E2E_Send_Message/API_Messages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/E2E_Send_Message/DB_Messages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/E2E_Send_Message/US_04_TC_01Mesaj_Gonderme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/base_url/MedunnaApiBaseUrl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/MedunnaAppointmentPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/MedunnaContactPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/MedunnaHomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/MedunnaLoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/MedunnaRoomPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/MedunnaSettingPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/ResponseRoomPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/US_01_TC_01GecerliKimlikBilgileriyleLoginOlma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/US_01_TC_02Gecersiz_Username_ile_Login_Olamama.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/US_01_TC_03Gecersiz_Password_ile_Login_Olamama.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/US_01_TC_04ZorunluAlanlariDoldurmadanLoginOlamama.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/US_01_TC_05SigninSayfasındakiButonlarınGorunurlugu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/US_01_TC_06Remember_Me_Secilerek_Login_Olma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/US_02_TC_01Admin_Randevu_Olusturma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/US_02_TC_02Start_Date_Bos_Birakilarak_Randevu_Olusturamama.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/US_02_TC_03End_Date_Bos_Birakilarak_Randevu_Olusturamama.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/US_02_TC_04Gecmis_Tarihli_Randevu_Alamama.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/US_02_TC_05Belirli_Alanlar_Bos_Bırakılarak_Randevu_Alma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/US_02_TC_06Physician_Patient_Status_Menu_Gorunurlugu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/US_03_TC_01First_Name_Guncelleme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/US_03_TC_02Last_Name_Guncelleme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/US_03_TC_03Email_Guncelleme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/US_03_TC_04First_Name_Bos_Bırakarak_Guncelleme_Yapamama.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/US_03_TC_05Last_Name_Bos_Birakarak_Guncelleme_Yapamama.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/US_03_TC_06Email_Bos_Birakarak_Guncelleme_Yapamama.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/US_03_TC_07Eksik_Mail_Adresiyle_Guncelleme_Yapamama.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/US_04_TC_01Mesaj_Gonderme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/US_04_TC_02Name_Bos_Birakilarak_Mesaj_Gonderememe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/US_04_TC_03Eksik_Email_Adresiyle_Mesaj_Gonderememe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/US_04_TC_04Email_Bos_Birakilarak_Mesaj_Gonderememe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/US_04_TC_05Subject_Bos_Birakilarak_Mesaj_Gonderememe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/US_05_TC_01Oda_Ekleme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/US_05_TC_02Gecmis_Tarihle_Oda_Olusturamama.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/US_05_TC_04Description_Bos_Birakarak_Oda_Olusturma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/US_05_TC_05Price_Kutusu_Bos_Birakilarak_Oda_Olusturulamama.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/AuthenticationMedunna.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/utilities/AuthenticationMedunna.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="2YvFpR1XqYU2N3KI722xF4ff2wj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "last_opened_file_path": "C:/Users/SEMANUR/Desktop/Medunna_Project/src/test/java",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Language Defaults"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\SEMANUR\Desktop\Medunna_Project\src\test\java" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\SEMANUR\Desktop\Medunna_Project\src\test\java\E2E_Create_Room" />
+      <recent name="C:\Users\SEMANUR\Desktop\Medunna_Project\src\test\java\API" />
+      <recent name="C:\Users\SEMANUR\Desktop\Medunna_Project\src\test\java\Room_E2E" />
+      <recent name="C:\Users\SEMANUR\Desktop\Medunna_Project\src\test" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="pojos" />
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="tests" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="E2E_Appointment" />
+      <recent name="E2E_Send_Message" />
+      <recent name="E2E_Creaded_Room" />
+      <recent name="pojos" />
+      <recent name="API_DataBase_Tests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Users/SEMANUR/Desktop/Medunna_Project/testng.xml">
+    <configuration name="API_Messages" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Medunna_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="E2E_Send_Message.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="E2E_Send_Message" />
+      <option name="MAIN_CLASS_NAME" value="E2E_Send_Message.API_Messages" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/SEMANUR/Desktop/Medunna_Project/src/test/java/API/E2E_Room.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Medunna_Project" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/API/E2E_Room.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/SEMANUR/Desktop/Medunna_Project/src/test/java/E2E_Create_Room/E2E_Room.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Medunna_Project" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/E2E_Create_Room/E2E_Room.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/SEMANUR/Desktop/Medunna_Project/src/test/java/Room_E2E/E2E_Room.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Medunna_Project" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/Room_E2E/E2E_Room.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/SEMANUR/Desktop/Medunna_Project/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Medunna_Project" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Users/SEMANUR/Desktop/Medunna_Project/testng.xml" />
+        <item itemvalue="TestNG.C:/Users/SEMANUR/Desktop/Medunna_Project/src/test/java/E2E_Create_Room/E2E_Room.xml" />
+        <item itemvalue="JUnit.API_Messages" />
+        <item itemvalue="TestNG.C:/Users/SEMANUR/Desktop/Medunna_Project/src/test/java/API/E2E_Room.xml" />
+        <item itemvalue="TestNG.C:/Users/SEMANUR/Desktop/Medunna_Project/src/test/java/Room_E2E/E2E_Room.xml" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="297c0d80-54c8-4769-bb83-e037b8ae9568" name="Changes" comment="" />
+      <created>1701398330737</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701398330737</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
